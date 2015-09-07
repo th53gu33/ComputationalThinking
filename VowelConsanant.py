@@ -19,4 +19,4 @@ for letter in userInput:
 
 print("Vowels: " + displayVowels)
 print("Consonants: " + displayConsonants)
-print("Punctuation: " + displayPunctuationH)
+print("Punctuation: " + displayPunctuation)
