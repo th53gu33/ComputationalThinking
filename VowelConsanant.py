@@ -1,14 +1,15 @@
 userInput = input("Enter your sentence: ")
 
 vowels = "AEIOUaeiou"
+consanants = "bcdfghjklmnpqrstvwxyx"
+consanants += consanants.upper()
 
-displayVowels = ""
-displayConstanants = ""
+fvowels = ""
+fconstanants = ""
 
 for letter in userInput:
-    if letter in vowels:
+    if letter in vowels and consanants:
         displayVowels += letter
-    else:
         displayConsanants += letter
 
 print("Vowels: " + displayVowels)
